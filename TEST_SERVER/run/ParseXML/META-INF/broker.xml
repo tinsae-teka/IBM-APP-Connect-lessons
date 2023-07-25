@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Broker deployBarfile="C:\Users\Tinsae T\IBM\ACET12\workspace\GeneratedBarFiles\ParseXMLproject.generated.bar" deployTimestamp="2023-07-25 10:06:34">
+  <CompiledApplication>
+    <ConfigurableProperty uri="startMode">
+    </ConfigurableProperty>
+  </CompiledApplication>
+  <CompiledMessageFlow name="ParseXML" deployBarfile="C:\Users\Tinsae T\IBM\ACET12\workspace\GeneratedBarFiles\ParseXMLproject.generated.bar" deployTimestamp="2023-07-25 10:06:34">
+    <ConfigurableProperty uri="ParseXML#Compute.connectDatasourceBeforeFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#Compute.dataSource">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#Compute.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.componentLevel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.destinationQueueManagerName" override="QMTest">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.queueName" override="XMLQueue">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.resetBrowseTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.serializationToken">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.topicProperty">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Input.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.AddRequestToGroup">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.GroupRequestFolderName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.GroupRequestTimeout">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.SSLCertificateLabel">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.SSLCipherSpec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.SSLPeerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.channelName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.connection">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.destinationQueueManagerName" override="QMTest">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.listenerPortNumber">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.policyUrl">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.queueManagerHostname">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.queueManagerName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.queueName" override="XMLOutput">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.replyToQ">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.replyToQMgr">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.securityIdentity">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.useSSL">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#MQ Output.validateMaster">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#additionalInstances">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#commitCount">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#commitInterval">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#consumerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#consumerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#coordinatedTransaction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#maximumRateMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#monitoringProfile">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#notificationThresholdMsgsPerSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#processingTimeoutAction">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#processingTimeoutSec">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#providerPolicySet">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#providerPolicySetBindings">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#securityProfileName">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#startInstancesWhenFlowStarts">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#startMode">
+    </ConfigurableProperty>
+    <ConfigurableProperty uri="ParseXML#wlmPolicy">
+    </ConfigurableProperty>
+  </CompiledMessageFlow>
+</Broker>

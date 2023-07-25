@@ -1,0 +1,179 @@
+2023-07-25 06:56:12.669859Z: [Thread 12140] (Msg 1/1) BIP1990I: Integration server 'TEST_SERVER' starting initialization; version '12.0.6.0' (64-bit) 
+2023-07-25 06:56:13.372319Z: [Thread 12140] (Msg 1/1) BIP9905I: Initializing resource managers. 
+2023-07-25 06:57:40.024536Z: [Thread 12140] (Msg 1/1) BIP9906I: Reading deployed resources. 
+2023-07-25 06:57:40.113984Z: [Thread 12140] (Msg 1/1) BIP9907I: Initializing deployed resources. 
+2023-07-25 06:57:40.252496Z: [Thread 12140] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 06:57:41.398248Z: [Thread 12140] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 06:57:59.486756Z: [Thread 13236] (Msg 1/1) BIP2866I: IBM App Connect Enterprise administration security is inactive. 
+2023-07-25 06:57:59.645016Z: [Thread 13236] (Msg 1/1) BIP3132I: The HTTP Listener has started listening on port '7600' for 'RestAdmin http' connections. 
+2023-07-25 06:57:59.746584Z: [Thread 12140] (Msg 1/1) BIP1991I: Integration server has finished initialization. 
+2023-07-25 07:05:10.721530Z: [Thread 924] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 07:05:11.042765Z: [Thread 924] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 07:05:11.059598Z: [Thread 924] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 07:05:11.375106Z: [Thread 924] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 07:05:11.935148Z: [Thread 924] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 07:05:11.935409Z: [Thread 924] (Msg 1/1) BIP9332I: Application 'AppHW' has been changed successfully. 
+2023-07-25 07:05:11.935503Z: [Thread 924] (Msg 1/1) BIP9326I: The source 'AppHWproject.generated.bar' has been successfully deployed. 
+2023-07-25 07:05:11.954782Z: [Thread 924] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 07:35:18.994148Z: [Thread 2056] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 07:35:19.061524Z: [Thread 2056] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'FileNode' of type 'Application'. 
+2023-07-25 07:35:19.157050Z: [Thread 2056] (Msg 1/2) BIP4125E: Failed to load ESQL file 'C:/Users/Tinsae T/IBM/ACET12/workspace/TEST_SERVER/run/FileNode/FileNodeMessageFlow_Compute.esql'. 
+2023-07-25 07:35:19.157220Z: [Thread 2056] (Msg 2/2) BIP2401E: (.FileNodeMessageFlow_Compute.CopyEntireMessage, 10.5) : Syntax error : expected 'END MODULE' but found 'keyword Module'. 
+2023-07-25 07:35:19.251962Z: [Thread 2056] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'FileNode' of type 'Application'. 
+2023-07-25 07:35:19.252372Z: [Thread 2056] (Msg 1/1) BIP9332I: Application 'FileNode' has been created successfully. 
+2023-07-25 07:35:19.252594Z: [Thread 2056] (Msg 1/1) BIP9326I: The source 'FileNodeproject.generated.bar' has been successfully deployed. 
+2023-07-25 07:35:19.254010Z: [Thread 2056] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 07:39:41.801596Z: [Thread 9432] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 07:39:41.888264Z: [Thread 9432] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'FileNode' of type 'Application'. 
+2023-07-25 07:39:41.888492Z: [Thread 9432] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'FileNode' of type 'Application'. 
+2023-07-25 07:39:41.999500Z: [Thread 9432] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'FileNode' of type 'Application'. 
+2023-07-25 07:39:42.378796Z: [Thread 9432] (Msg 1/2) BIP9318E: Request to 'PreSetupValidate' resource 'FileNode', 'FileNode' of type 'Application' failed. 
+2023-07-25 07:39:42.378976Z: [Thread 9432] (Msg 2/2) BIP2432E: (.FileNodeMessageFlow_Compute.CopyEntireMessage, 4.23) : The correlation name 'outputroot' is not valid. Those in scope are: Environment, InputLocalEnvironment, OutputLocalEnvironment, InputRoot, InputBody, InputProperties, OutputRoot, InputExceptionList, OutputExceptionList, InputDestinationList, OutputDestinationList, inref. 
+2023-07-25 07:39:42.379188Z: [Thread 9432] (Msg 1/1) BIP9333W: Application 'FileNode' has been changed but contains errors which has prevented some resources from starting. 
+2023-07-25 07:39:42.379316Z: [Thread 9432] (Msg 1/1) BIP1096E: The source 'FileNodeproject.generated.bar' has been deployed but there were one or more failures which may mean the deployed resources will be unable to execute. 
+2023-07-25 07:39:42.380200Z: [Thread 9432] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 08:10:10.309961Z: [Thread 10760] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 08:10:10.442201Z: [Thread 10760] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:10:10.442361Z: [Thread 10760] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:10:10.535906Z: [Thread 10760] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:10:11.766927Z: [Thread 10760] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'AppHW/$mqsiApplication.bir'. 
+2023-07-25 08:10:19.484168Z: [Thread 10760] (Msg 1/1) BIP9341I: Created compiled 'DFDL' schema file 'AppHW/$mqsiApplication.dpif'. 
+2023-07-25 08:10:19.540938Z: [Thread 10760] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:10:19.541292Z: [Thread 10760] (Msg 1/1) BIP9332I: Application 'AppHW' has been changed successfully. 
+2023-07-25 08:10:19.541418Z: [Thread 10760] (Msg 1/1) BIP9326I: The source 'AppHWproject.generated.bar' has been successfully deployed. 
+2023-07-25 08:10:19.542388Z: [Thread 10760] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 08:14:19.788044Z: [Thread 1728] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 08:14:19.884790Z: [Thread 1728] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:14:19.885140Z: [Thread 1728] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:14:20.021250Z: [Thread 1728] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:14:20.146718Z: [Thread 1728] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'AppHW/$mqsiApplication.bir'. 
+2023-07-25 08:14:20.337428Z: [Thread 1728] (Msg 1/1) BIP9341I: Created compiled 'DFDL' schema file 'AppHW/$mqsiApplication.dpif'. 
+2023-07-25 08:14:20.376170Z: [Thread 1728] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:14:20.376462Z: [Thread 1728] (Msg 1/1) BIP9332I: Application 'AppHW' has been changed successfully. 
+2023-07-25 08:14:20.376602Z: [Thread 1728] (Msg 1/1) BIP9326I: The source 'AppHWproject.generated.bar' has been successfully deployed. 
+2023-07-25 08:14:20.377770Z: [Thread 1728] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 08:49:28.598980Z: [Thread 8088] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 08:49:28.722376Z: [Thread 8088] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:49:28.722594Z: [Thread 8088] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:49:28.880358Z: [Thread 8088] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:49:29.036466Z: [Thread 8088] (Msg 1/1) BIP9342I: Created compiled 'XMLNSC' schema file 'AppHW/$mqsiApplication.bir'. 
+2023-07-25 08:49:29.290954Z: [Thread 8088] (Msg 1/1) BIP9341I: Created compiled 'DFDL' schema file 'AppHW/$mqsiApplication.dpif'. 
+2023-07-25 08:49:29.351486Z: [Thread 8088] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 08:49:29.351878Z: [Thread 8088] (Msg 1/1) BIP9332I: Application 'AppHW' has been changed successfully. 
+2023-07-25 08:49:29.352002Z: [Thread 8088] (Msg 1/1) BIP9326I: The source 'AppHWproject.generated.bar' has been successfully deployed. 
+2023-07-25 08:49:29.353118Z: [Thread 8088] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 08:58:31.146402Z: [Thread 924] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 08:58:31.280490Z: [Thread 924] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 08:58:32.067466Z: [Thread 924] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 08:58:32.095364Z: [Thread 924] (Msg 1/1) BIP2269I: Deployed resource 'TestFlow' (uuid='TestFlow',type='MessageFlow') started successfully. 
+2023-07-25 08:58:32.095592Z: [Thread 924] (Msg 1/1) BIP9332I: Application 'TestAPP' has been created successfully. 
+2023-07-25 08:58:32.095714Z: [Thread 924] (Msg 1/1) BIP9326I: The source 'TestAPPproject.generated.bar' has been successfully deployed. 
+2023-07-25 08:58:32.096726Z: [Thread 924] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 09:02:28.530478Z: [Thread 13304] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 09:02:28.619666Z: [Thread 13304] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 09:02:32.756546Z: [Thread 13304] (Msg 1/1) BIP2271I: Deployed resource 'TestFlow' (uuid='TestFlow',type='MessageFlow') successfully stopped. 
+2023-07-25 09:02:32.757080Z: [Thread 13304] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 09:02:32.844426Z: [Thread 13304] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 09:02:32.901280Z: [Thread 13304] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 09:02:32.902108Z: [Thread 13304] (Msg 1/1) BIP2269I: Deployed resource 'TestFlow' (uuid='TestFlow',type='MessageFlow') started successfully. 
+2023-07-25 09:02:32.902294Z: [Thread 13304] (Msg 1/1) BIP9332I: Application 'TestAPP' has been changed successfully. 
+2023-07-25 09:02:32.902450Z: [Thread 13304] (Msg 1/1) BIP9326I: The source 'TestAPPproject.generated.bar' has been successfully deployed. 
+2023-07-25 09:02:32.903618Z: [Thread 13304] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 09:02:48.927792Z: [Thread 13716] (Msg 1/6) BIP2628W: Exception condition detected on input node 'TestFlow.MQ Input'. 
+2023-07-25 09:02:48.927976Z: [Thread 13716] (Msg 2/6) BIP2230E: Error detected whilst processing a message in node 'TestFlow.Compute'. 
+2023-07-25 09:02:48.928280Z: [Thread 13716] (Msg 3/6) BIP2488E:  (.TestFlow_Compute.Main, 4.3) Error detected whilst executing the SQL statement 'SET OutputRoot.XMLNSC.OUTMSG = InputRoot.JSON.Data;'. 
+2023-07-25 09:02:48.928564Z: [Thread 13716] (Msg 4/6) BIP2498E: (.TestFlow_Compute.Main, 4.34) : An error occurred when navigating to path element '3' of the field reference at the given location. 
+2023-07-25 09:02:48.928988Z: [Thread 13716] (Msg 5/6) BIP5705E: JSON parsing errors have occurred. 
+2023-07-25 09:02:48.929332Z: [Thread 13716] (Msg 6/6) BIP5719E: A JSON parsing error occurred. A message that is not a valid JSON message was found in the input bit stream. 
+2023-07-25 09:02:48.938260Z: [Thread 13716] (Msg 1/1) BIP2648E: Message backed out to a queue; message flow node 'TestFlow.MQ Input'. 
+2023-07-25 09:02:48.938500Z: [Thread 13716] (Msg 1/1) BIP2630E: No backout queue or DLQ defined for a message to be backed out; received from queue 'TestQueue' 
+2023-07-25 09:19:56.718780Z: [Thread 9432] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 09:19:56.845452Z: [Thread 9432] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:19:57.793688Z: [Thread 9432] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:19:57.794396Z: [Thread 9432] (Msg 1/1) BIP2269I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') started successfully. 
+2023-07-25 09:19:57.794544Z: [Thread 9432] (Msg 1/1) BIP9332I: Application 'ParseXML' has been created successfully. 
+2023-07-25 09:19:57.794640Z: [Thread 9432] (Msg 1/1) BIP9326I: The source 'ParseXMLproject.generated.bar' has been successfully deployed. 
+2023-07-25 09:19:57.795704Z: [Thread 9432] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 09:35:00.782999Z: [Thread 10296] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 09:35:00.871658Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:35:03.734789Z: [Thread 10296] (Msg 1/1) BIP2271I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') successfully stopped. 
+2023-07-25 09:35:03.735053Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:35:03.913414Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:35:03.982527Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:35:03.983317Z: [Thread 10296] (Msg 1/1) BIP2269I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') started successfully. 
+2023-07-25 09:35:03.983490Z: [Thread 10296] (Msg 1/1) BIP9332I: Application 'ParseXML' has been changed successfully. 
+2023-07-25 09:35:03.983590Z: [Thread 10296] (Msg 1/1) BIP9326I: The source 'ParseXMLproject.generated.bar' has been successfully deployed. 
+2023-07-25 09:35:03.984549Z: [Thread 10296] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 09:43:18.512158Z: [Thread 10296] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 09:43:18.603620Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:43:21.342092Z: [Thread 10296] (Msg 1/1) BIP2271I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') successfully stopped. 
+2023-07-25 09:43:21.342360Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:43:21.521988Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:43:21.571126Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:43:21.571958Z: [Thread 10296] (Msg 1/1) BIP2269I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') started successfully. 
+2023-07-25 09:43:21.572138Z: [Thread 10296] (Msg 1/1) BIP9332I: Application 'ParseXML' has been changed successfully. 
+2023-07-25 09:43:21.572284Z: [Thread 10296] (Msg 1/1) BIP9326I: The source 'ParseXMLproject.generated.bar' has been successfully deployed. 
+2023-07-25 09:43:21.573616Z: [Thread 10296] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 09:48:12.014344Z: [Thread 10296] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 09:48:12.087190Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:48:13.426700Z: [Thread 10296] (Msg 1/1) BIP2271I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') successfully stopped. 
+2023-07-25 09:48:13.427049Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:48:13.557070Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:48:13.596976Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:48:13.597828Z: [Thread 10296] (Msg 1/1) BIP2269I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') started successfully. 
+2023-07-25 09:48:13.597962Z: [Thread 10296] (Msg 1/1) BIP9332I: Application 'ParseXML' has been changed successfully. 
+2023-07-25 09:48:13.598059Z: [Thread 10296] (Msg 1/1) BIP9326I: The source 'ParseXMLproject.generated.bar' has been successfully deployed. 
+2023-07-25 09:48:13.599022Z: [Thread 10296] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 09:50:37.806732Z: [Thread 10296] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 09:50:37.896696Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:50:43.650188Z: [Thread 10296] (Msg 1/1) BIP2271I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') successfully stopped. 
+2023-07-25 09:50:43.650828Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:50:43.759512Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:50:43.838896Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:50:43.839620Z: [Thread 10296] (Msg 1/1) BIP2269I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') started successfully. 
+2023-07-25 09:50:43.839784Z: [Thread 10296] (Msg 1/1) BIP9332I: Application 'ParseXML' has been changed successfully. 
+2023-07-25 09:50:43.839888Z: [Thread 10296] (Msg 1/1) BIP9326I: The source 'ParseXMLproject.generated.bar' has been successfully deployed. 
+2023-07-25 09:50:43.840876Z: [Thread 10296] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 09:51:05.632815Z: [Thread 11976] (Msg 1/8) BIP2628W: Exception condition detected on input node 'ParseXML.MQ Input'. 
+2023-07-25 09:51:05.632951Z: [Thread 11976] (Msg 2/8) BIP2230E: Error detected whilst processing a message in node 'ParseXML.Compute'. 
+2023-07-25 09:51:05.633024Z: [Thread 11976] (Msg 3/8) BIP2488E:  (.ParseXML_Compute.Main, 4.3) Error detected whilst executing the SQL statement 'CALL TransformXML();'. 
+2023-07-25 09:51:05.633319Z: [Thread 11976] (Msg 4/8) BIP2934E: Error detected whilst executing the function or procedure 'TransformXML'. 
+2023-07-25 09:51:05.633404Z: [Thread 11976] (Msg 5/8) BIP2488E:  (.ParseXML_Compute.TransformXML, 8.3) Error detected whilst executing the SQL statement 'SET PERSON_CREDIT_SCORE = InputRoot.XMLNSC.Person.CreditScore;'. 
+2023-07-25 09:51:05.633484Z: [Thread 11976] (Msg 6/8) BIP2498E: (.ParseXML_Compute.TransformXML, 8.29) : An error occurred when navigating to path element '4' of the field reference at the given location. 
+2023-07-25 09:51:05.633761Z: [Thread 11976] (Msg 7/8) BIP5009E: XML Parsing Errors have occurred. 
+2023-07-25 09:51:05.633984Z: [Thread 11976] (Msg 8/8) BIP5004E: An XML parsing error 'Attribute name "ore" must be followed by the ''='' character.' occurred on line 2 column 4 when parsing element '/Root/XMLNSC/Person'.  Internal error codes are '1516' and '2'. 
+2023-07-25 09:51:05.635280Z: [Thread 11976] (Msg 1/1) BIP2648E: Message backed out to a queue; message flow node 'ParseXML.MQ Input'. 
+2023-07-25 09:51:05.635533Z: [Thread 11976] (Msg 1/1) BIP2630E: No backout queue or DLQ defined for a message to be backed out; received from queue 'XMLQueue' 
+2023-07-25 09:53:10.068719Z: [Thread 10296] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 09:53:10.142509Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:53:12.075673Z: [Thread 10296] (Msg 1/1) BIP2271I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') successfully stopped. 
+2023-07-25 09:53:12.075859Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:53:12.184870Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:53:12.223694Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 09:53:12.224568Z: [Thread 10296] (Msg 1/1) BIP2269I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') started successfully. 
+2023-07-25 09:53:12.224758Z: [Thread 10296] (Msg 1/1) BIP9332I: Application 'ParseXML' has been changed successfully. 
+2023-07-25 09:53:12.224925Z: [Thread 10296] (Msg 1/1) BIP9326I: The source 'ParseXMLproject.generated.bar' has been successfully deployed. 
+2023-07-25 09:53:12.225902Z: [Thread 10296] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 10:03:21.051904Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 10:03:21.052100Z: [Thread 10296] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'AppHW' of type 'Application'. 
+2023-07-25 10:03:26.071576Z: [Thread 8088] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 10:03:27.807302Z: [Thread 8088] (Msg 1/1) BIP2271I: Deployed resource 'TestFlow' (uuid='TestFlow',type='MessageFlow') successfully stopped. 
+2023-07-25 10:03:27.808246Z: [Thread 8088] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 10:06:34.700716Z: [Thread 9920] (Msg 1/1) BIP2152I: Configuration message received. 
+2023-07-25 10:06:34.795712Z: [Thread 9920] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 10:06:36.718996Z: [Thread 9920] (Msg 1/1) BIP2271I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') successfully stopped. 
+2023-07-25 10:06:36.719272Z: [Thread 9920] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 10:06:36.817976Z: [Thread 9920] (Msg 1/1) BIP2155I: About to 'Initialize' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 10:06:36.858896Z: [Thread 9920] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'ParseXML' of type 'Application'. 
+2023-07-25 10:06:36.859660Z: [Thread 9920] (Msg 1/1) BIP2269I: Deployed resource 'ParseXML' (uuid='ParseXML',type='MessageFlow') started successfully. 
+2023-07-25 10:06:36.859860Z: [Thread 9920] (Msg 1/1) BIP9332I: Application 'ParseXML' has been changed successfully. 
+2023-07-25 10:06:36.860044Z: [Thread 9920] (Msg 1/1) BIP9326I: The source 'ParseXMLproject.generated.bar' has been successfully deployed. 
+2023-07-25 10:06:36.861332Z: [Thread 9920] (Msg 1/1) BIP2154I: Integration server finished with Configuration message. 
+2023-07-25 10:11:59.542996Z: [Thread 9920] (Msg 1/1) BIP9521I: Application 'FileNode' has been deleted. 
+2023-07-25 10:12:06.306884Z: [Thread 9920] (Msg 1/1) BIP2155I: About to 'Start' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 10:12:06.307723Z: [Thread 9920] (Msg 1/1) BIP2269I: Deployed resource 'TestFlow' (uuid='TestFlow',type='MessageFlow') started successfully. 
+2023-07-25 10:12:12.556731Z: [Thread 9920] (Msg 1/1) BIP9521I: Application 'AppHW' has been deleted. 
+2023-07-25 10:12:18.714774Z: [Thread 8088] (Msg 1/1) BIP2155I: About to 'Stop' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 10:12:20.421308Z: [Thread 8088] (Msg 1/1) BIP2271I: Deployed resource 'TestFlow' (uuid='TestFlow',type='MessageFlow') successfully stopped. 
+2023-07-25 10:12:20.421574Z: [Thread 8088] (Msg 1/1) BIP2155I: About to 'TearDown' the deployed resource 'TestAPP' of type 'Application'. 
+2023-07-25 10:12:20.477556Z: [Thread 8088] (Msg 1/1) BIP9521I: Application 'TestAPP' has been deleted. 

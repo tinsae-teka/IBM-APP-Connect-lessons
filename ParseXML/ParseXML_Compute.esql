@@ -1,0 +1,37 @@
+CREATE COMPUTE MODULE ParseXML_Compute
+	CREATE FUNCTION Main() RETURNS BOOLEAN
+	BEGIN
+		CALL CopyMessageHeaders();
+		CALL TransformXML();
+		RETURN TRUE;
+	END;
+
+	CREATE PROCEDURE CopyMessageHeaders() BEGIN
+		DECLARE I INTEGER 1;
+		DECLARE J INTEGER;
+		SET J = CARDINALITY(InputRoot.*[]);
+		WHILE I < J DO
+			SET OutputRoot.*[I] = InputRoot.*[I];
+			SET I = I + 1;
+		END WHILE;
+	END;
+
+	CREATE PROCEDURE TransformXML() BEGIN
+		DECLARE PERSON_F_NAME CHARACTER '';
+		DECLARE PERSON_L_NAME CHARACTER '';
+		DECLARE PERSON_CREDIT_SCORE CHARACTER '';
+		
+		SET PERSON_F_NAME = InputRoot.XMLNSC.Person.FirstName;
+		SET PERSON_L_NAME = InputRoot.XMLNSC.Person.LastName;
+		SET PERSON_CREDIT_SCORE = InputRoot.XMLNSC.Person.CreditScore;
+		
+		SET OutputRoot.XMLNSC.Customer.Name = PERSON_F_NAME || ' ' || PERSON_L_NAME;
+		IF PERSON_CREDIT_SCORE = 'good' THEN 
+			SET OutputRoot.XMLNSC.Customer.Status = 'Approved';
+		ELSE
+			SET OutputRoot.XMLNSC.Customer.Status = 'Rejected';
+		END IF;
+		
+	END;
+END MODULE;
+
